@@ -173,12 +173,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ErrorController",
             "name": "ErrorController",
-            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020erreurs",
+            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020actions\u0020li\u00E9es\u0020aux\u0020erreurs",
             "url": "classes/ErrorController.html"
         },                {
             "fqsen": "\\ErrorController\u003A\u003Aerror404\u0028\u0029",
             "name": "error404",
-            "summary": "Affiche\u0020la\u0020page\u0020d\u0027erreur\u0020404",
+            "summary": "Affiche\u0020la\u0020vue\u0020d\u0027erreur\u0020404",
             "url": "classes/ErrorController.html#method_error404"
         },                {
             "fqsen": "\\ExamController",
@@ -223,7 +223,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ExamController\u003A\u003Afinalise\u0028\u0029",
             "name": "finalise",
-            "summary": "Finalise\u0020la\u0020cr\u00E9ation\u0020d\u0027un\u0020examen",
+            "summary": "Finalise\u0020la\u0020cr\u00E9ation\u0020de\u0020l\u0027examen",
             "url": "classes/ExamController.html#method_finalise"
         },                {
             "fqsen": "\\ExamController\u003A\u003AdeleteExam\u0028\u0029",
@@ -238,17 +238,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ExportDataController",
             "name": "ExportDataController",
-            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020exports\u0020de\u0020donn\u00E9es",
+            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020actions\u0020li\u00E9es\u0020\u00E0\u0020l\u0027exportation\u0020de\u0020donn\u00E9es",
             "url": "classes/ExportDataController.html"
         },                {
             "fqsen": "\\ExportDataController\u003A\u003AexportData\u0028\u0029",
             "name": "exportData",
-            "summary": "Affiche\u0020la\u0020page\u0020d\u0027exportation\u0020de\u0020donn\u00E9es",
+            "summary": "Affiche\u0020la\u0020vue\u0020d\u0027exportation\u0020de\u0020donn\u00E9es",
             "url": "classes/ExportDataController.html#method_exportData"
         },                {
             "fqsen": "\\ExportDataController\u003A\u003Aexport\u0028\u0029",
             "name": "export",
-            "summary": "Exporte\u0020les\u0020donn\u00E9es",
+            "summary": "Exporte\u0020les\u0020donn\u00E9es\u0020au\u0020format\u0020CSV\u0020ou\u0020TXT",
             "url": "classes/ExportDataController.html#method_export"
         },                {
             "fqsen": "\\HomeController",
@@ -278,7 +278,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ImportDataController",
             "name": "ImportDataController",
-            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020imports\u0020de\u0020donn\u00E9es",
+            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020actions\u0020li\u00E9es\u0020\u00E0\u0020l\u0027importation\u0020de\u0020donn\u00E9es",
             "url": "classes/ImportDataController.html"
         },                {
             "fqsen": "\\ImportDataController\u003A\u003AimportData\u0028\u0029",
@@ -318,7 +318,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ImportDataController\u003A\u003AimportQuestions\u0028\u0029",
             "name": "importQuestions",
-            "summary": "Importe\u0020les\u0020sujets",
+            "summary": "Importe\u0020les\u0020questions",
             "url": "classes/ImportDataController.html#method_importQuestions"
         },                {
             "fqsen": "\\ImportDataController\u003A\u003AimportSujets\u0028\u0029",
@@ -338,27 +338,27 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MatiereController\u003A\u003AnewMatiere\u0028\u0029",
             "name": "newMatiere",
-            "summary": "Affiche\u0020la\u0020vue\u0020pour\u0020cr\u00E9er\u0020une\u0020nouvelle\u0020mati\u00E8re",
+            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020cr\u00E9ation\u0020d\u0027une\u0020mati\u00E8re",
             "url": "classes/MatiereController.html#method_newMatiere"
         },                {
             "fqsen": "\\MatiereController\u003A\u003AaddMatiere\u0028\u0029",
             "name": "addMatiere",
-            "summary": "Ajoute\u0020une\u0020mati\u00E8re\u0020dans\u0020la\u0020base\u0020de\u0020donn\u00E9es",
+            "summary": "Ajoute\u0020une\u0020mati\u00E8re\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/MatiereController.html#method_addMatiere"
         },                {
             "fqsen": "\\MatiereController\u003A\u003AgetMatiereDetails\u0028\u0029",
             "name": "getMatiereDetails",
-            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020d\u00E9tail\u0020d\u0027une\u0020mati\u00E8re",
+            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020d\u00E9tails\u0020d\u0027une\u0020mati\u00E8re",
             "url": "classes/MatiereController.html#method_getMatiereDetails"
         },                {
             "fqsen": "\\MatiereController\u003A\u003AMatiereUpdate\u0028\u0029",
             "name": "MatiereUpdate",
-            "summary": "Met\u0020\u00E0\u0020jour\u0020une\u0020mati\u00E8re",
+            "summary": "Met\u0020\u00E0\u0020jour\u0020une\u0020mati\u00E8re\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/MatiereController.html#method_MatiereUpdate"
         },                {
             "fqsen": "\\MatiereController\u003A\u003AMatiereDelete\u0028\u0029",
             "name": "MatiereDelete",
-            "summary": "Supprime\u0020une\u0020mati\u00E8re",
+            "summary": "Supprime\u0020une\u0020mati\u00E8re\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/MatiereController.html#method_MatiereDelete"
         },                {
             "fqsen": "\\MatiereController\u003A\u003ASujetToMatiere\u0028\u0029",
@@ -383,12 +383,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NiveauxController\u003A\u003AnewNiveau\u0028\u0029",
             "name": "newNiveau",
-            "summary": "Affiche\u0020la\u0020vue\u0020pour\u0020cr\u00E9er\u0020un\u0020nouveau\u0020niveau",
+            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020cr\u00E9ation\u0020d\u0027un\u0020niveau",
             "url": "classes/NiveauxController.html#method_newNiveau"
         },                {
             "fqsen": "\\NiveauxController\u003A\u003AaddNiveau\u0028\u0029",
             "name": "addNiveau",
-            "summary": "Ajoute\u0020un\u0020niveau\u0020dans\u0020la\u0020base\u0020de\u0020donn\u00E9es",
+            "summary": "Ajoute\u0020un\u0020niveau\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/NiveauxController.html#method_addNiveau"
         },                {
             "fqsen": "\\NiveauxController\u003A\u003AgetNiveauDetails\u0028\u0029",
@@ -398,17 +398,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NiveauxController\u003A\u003ANiveauDelete\u0028\u0029",
             "name": "NiveauDelete",
-            "summary": "Supprime\u0020un\u0020niveau\u0020de\u0020la\u0020base\u0020de\u0020donn\u00E9es",
+            "summary": "Supprime\u0020un\u0020niveau\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/NiveauxController.html#method_NiveauDelete"
         },                {
             "fqsen": "\\NiveauxController\u003A\u003ANiveauUpdate\u0028\u0029",
             "name": "NiveauUpdate",
-            "summary": "Met\u0020\u00E0\u0020jour\u0020un\u0020niveau\u0020dans\u0020la\u0020base\u0020de\u0020donn\u00E9es",
+            "summary": "Met\u0020\u00E0\u0020jour\u0020un\u0020niveau\u0020en\u0020base\u0020de\u0020donn\u00E9es",
             "url": "classes/NiveauxController.html#method_NiveauUpdate"
         },                {
             "fqsen": "\\NiveauxController\u003A\u003AassociateCursus\u0028\u0029",
             "name": "associateCursus",
-            "summary": "Affiche\u0020la\u0020vue\u0020pour\u0020associer\u0020un\u0020cursus\u0020\u00E0\u0020un\u0020niveau",
+            "summary": "Affiche\u0020la\u0020vue\u0020pour\u0020associer\u0020des\u0020cursus\u0020\u00E0\u0020un\u0020niveau",
             "url": "classes/NiveauxController.html#method_associateCursus"
         },                {
             "fqsen": "\\NiveauxController\u003A\u003Aassociate\u0028\u0029",
@@ -1846,6 +1846,16 @@ Search.appendIndex(
             "summary": "V\u00E9rifie\u0020si\u0020un\u0020professeur\u0020a\u0020une\u0020mati\u00E8re",
             "url": "classes/Professeur.html#method_ifProfesseurHasMatiere"
         },                {
+            "fqsen": "\\Professeur\u003A\u003AgetEleves\u0028\u0029",
+            "name": "getEleves",
+            "summary": "Retourne\u0020les\u0020\u00E9l\u00E8ves\u0020d\u0027un\u0020professeur\u0020en\u0020fonction\u0020de\u0020son\u0020id",
+            "url": "classes/Professeur.html#method_getEleves"
+        },                {
+            "fqsen": "\\Professeur\u003A\u003AgetClasses\u0028\u0029",
+            "name": "getClasses",
+            "summary": "Retourne\u0020les\u0020classes\u0020d\u0027un\u0020professeur\u0020en\u0020fonction\u0020de\u0020son\u0020id",
+            "url": "classes/Professeur.html#method_getClasses"
+        },                {
             "fqsen": "\\Professeur\u003A\u003Aexport\u0028\u0029",
             "name": "export",
             "summary": "Retourne\u0020tous\u0020les\u0020professeurs\u0020avec\u0020leur\u0020mati\u00E8re\u0020associ\u00E9e",
@@ -2030,6 +2040,41 @@ Search.appendIndex(
             "name": "ifAlreadyExist",
             "summary": "V\u00E9rifie\u0020si\u0020un\u0020utilisateur\u0020existe\u0020dans\u0020la\u0020base\u0020de\u0020donn\u00E9es\u0020en\u0020fonction\u0020de\u0020son\u0020email",
             "url": "classes/Utilisateur.html#method_ifAlreadyExist"
+        },                {
+            "fqsen": "\\Utilisateur\u003A\u003Aupdate\u0028\u0029",
+            "name": "update",
+            "summary": "Met\u0020\u00E0\u0020jour\u0020les\u0020informations\u0020d\u0027un\u0020utilisateur\u0020\u0028Fonction\u0020utilis\u00E9e\u0020par\u0020l\u0027interm\u00E9diaire\u0020d\u0027une\u0020requ\u00EAte\u0020AJAX\u0029",
+            "url": "classes/Utilisateur.html#method_update"
+        },                {
+            "fqsen": "\\ClasseController",
+            "name": "ClasseController",
+            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020classes\u0020des\u0020professeurs",
+            "url": "classes/ClasseController.html"
+        },                {
+            "fqsen": "\\ClasseController\u003A\u003AgetClassesList\u0028\u0029",
+            "name": "getClassesList",
+            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020la\u0020liste\u0020des\u0020classes\u0020du\u0020professeur",
+            "url": "classes/ClasseController.html#method_getClassesList"
+        },                {
+            "fqsen": "\\ClasseController\u003A\u003AgetClasses\u0028\u0029",
+            "name": "getClasses",
+            "summary": "",
+            "url": "classes/ClasseController.html#method_getClasses"
+        },                {
+            "fqsen": "\\EleveController",
+            "name": "EleveController",
+            "summary": "Controller\u0020qui\u0020g\u00E8re\u0020les\u0020actions\u0020li\u00E9es\u0020aux\u0020\u00E9l\u00E8ves",
+            "url": "classes/EleveController.html"
+        },                {
+            "fqsen": "\\EleveController\u003A\u003AgetElevesList\u0028\u0029",
+            "name": "getElevesList",
+            "summary": "Affiche\u0020la\u0020vue\u0020de\u0020la\u0020liste\u0020des\u0020\u00E9l\u00E8ves",
+            "url": "classes/EleveController.html#method_getElevesList"
+        },                {
+            "fqsen": "\\EleveController\u003A\u003AgetEleves\u0028\u0029",
+            "name": "getEleves",
+            "summary": "Fonction\u0020qui\u0020renvoie\u0020les\u0020\u00E9l\u00E8ves\u0020au\u0020format\u0020JSON\u0020pour\u0020la\u0020DataTable\u0020\u0028AJAX\u0029",
+            "url": "classes/EleveController.html#method_getEleves"
         },                {
             "fqsen": "\\",
             "name": "\\",

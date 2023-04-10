@@ -81,7 +81,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    NiveauxController
+    EleveController
 
         <span class="phpdocumentor-element__extends">
         extends <a href="classes/Controller.html"><abbr title="\Controller">Controller</abbr></a>
@@ -98,13 +98,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/EleveController.php"><a href="files/examgenerator-controllers-elevecontroller.html"><abbr title="ExamGenerator/controllers/EleveController.php">EleveController.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">6</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Controller qui gère les actions liées aux niveaux</p>
+            <p class="phpdocumentor-summary">Controller qui gère les actions liées aux élèves</p>
 
 
 
@@ -143,67 +143,18 @@
 Initialise les chemins vers les vues et le template</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_addNiveau">addNiveau()</a>
+    <a href="classes/EleveController.html#method_getEleves">getEleves()</a>
     <span>
-                                &nbsp;: void    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd>Ajoute un niveau en base de données</dd>
+<dd>Fonction qui renvoie les élèves au format JSON pour la DataTable (AJAX)</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_associate">associate()</a>
+    <a href="classes/EleveController.html#method_getElevesList">getElevesList()</a>
     <span>
                                 &nbsp;: void    </span>
 </dt>
-<dd>Associe un cursus à un niveau</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_associateCursus">associateCursus()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Affiche la vue pour associer des cursus à un niveau</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_disassociate">disassociate()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Dissocie un cursus d&#039;un niveau</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_getNiveauDetails">getNiveauDetails()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Affiche la vue de détails d&#039;un niveau</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_getNiveauxList">getNiveauxList()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Affiche la vue de la liste des niveaux</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_newNiveau">newNiveau()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Affiche la vue de création d&#039;un niveau</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_NiveauDelete">NiveauDelete()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Supprime un niveau en base de données</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NiveauxController.html#method_NiveauUpdate">NiveauUpdate()</a>
-    <span>
-                                &nbsp;: void    </span>
-</dt>
-<dd>Met à jour un niveau en base de données</dd>
+<dd>Affiche la vue de la liste des élèves</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/Controller.html#method_isUserConnected">isUserConnected()</a>
@@ -243,7 +194,7 @@ Initialise les chemins vers les vues et le template</dd>
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/NiveauxController.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/EleveController.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -318,7 +269,7 @@ Initialise les chemins vers les vues et le template</dd>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/NiveauxController.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/EleveController.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -360,29 +311,29 @@ Initialise les chemins vers les vues et le template</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_addNiveau">
-        addNiveau()
-        <a href="classes/NiveauxController.html#method_addNiveau" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getEleves">
+        getEleves()
+        <a href="classes/EleveController.html#method_getEleves" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/EleveController.php"><a href="files/examgenerator-controllers-elevecontroller.html"><abbr title="ExamGenerator/controllers/EleveController.php">EleveController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">24</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Ajoute un niveau en base de données</p>
+        <p class="phpdocumentor-summary">Fonction qui renvoie les élèves au format JSON pour la DataTable (AJAX)</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">addNiveau</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getEleves</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
         
     
@@ -393,296 +344,25 @@ Initialise les chemins vers les vues et le template</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_associate">
-        associate()
-        <a href="classes/NiveauxController.html#method_associate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getElevesList">
+        getElevesList()
+        <a href="classes/EleveController.html#method_getElevesList" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/EleveController.php"><a href="files/examgenerator-controllers-elevecontroller.html"><abbr title="ExamGenerator/controllers/EleveController.php">EleveController.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">12</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Associe un cursus à un niveau</p>
+        <p class="phpdocumentor-summary">Affiche la vue de la liste des élèves</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">associate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                    <span class="phpdocumentor-signature__name">getElevesList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
     
     
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_associateCursus">
-        associateCursus()
-        <a href="classes/NiveauxController.html#method_associateCursus" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">105</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Affiche la vue pour associer des cursus à un niveau</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">associateCursus</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_disassociate">
-        disassociate()
-        <a href="classes/NiveauxController.html#method_disassociate" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">146</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Dissocie un cursus d&#039;un niveau</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">disassociate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getNiveauDetails">
-        getNiveauDetails()
-        <a href="classes/NiveauxController.html#method_getNiveauDetails" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">53</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Affiche la vue de détails d&#039;un niveau</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getNiveauDetails</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_getNiveauxList">
-        getNiveauxList()
-        <a href="classes/NiveauxController.html#method_getNiveauxList" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">13</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Affiche la vue de la liste des niveaux</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">getNiveauxList</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_newNiveau">
-        newNiveau()
-        <a href="classes/NiveauxController.html#method_newNiveau" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">27</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Affiche la vue de création d&#039;un niveau</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">newNiveau</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-    
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_NiveauDelete">
-        NiveauDelete()
-        <a href="classes/NiveauxController.html#method_NiveauDelete" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">77</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Supprime un niveau en base de données</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">NiveauDelete</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-        
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_NiveauUpdate">
-        NiveauUpdate()
-        <a href="classes/NiveauxController.html#method_NiveauUpdate" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ExamGenerator/controllers/NiveauxController.php"><a href="files/examgenerator-controllers-niveauxcontroller.html"><abbr title="ExamGenerator/controllers/NiveauxController.php">NiveauxController.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">91</span>
-
-    </aside>
-
-        <p class="phpdocumentor-summary">Met à jour un niveau en base de données</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">NiveauUpdate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-    
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
@@ -945,7 +625,7 @@ Initialise les chemins vers les vues et le template</p>
 </section>
             </div>
         </div>
-        <a href="classes/NiveauxController.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/EleveController.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
